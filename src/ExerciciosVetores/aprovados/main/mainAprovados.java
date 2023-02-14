@@ -21,7 +21,7 @@ public class mainAprovados {
         Aluno[] alunos = new Aluno[n];
 
         for(int i = 0; i < alunos.length; i++){
-            System.out.println("Digite nome, primeira e segunda nota do 1o aluno:");     //Printf para mostrar a posição no vetor da pessoa + 1
+            System.out.printf("Digite nome, primeira e segunda nota do %d aluno:\n", i + 1);   //Printf para mostrar a posição no vetor da pessoa + 1
             sc.nextLine();
             System.out.print("Nome: ");
             String name = sc.nextLine();
